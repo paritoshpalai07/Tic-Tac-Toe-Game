@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  height: 50vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3397da57;
+}
+
+.gameLogo {
+  background-image: url("images/pngwing.com\(1\).png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 220px;
+}
+
+.msg-container {
+  height: 30vh;
+  width: 30vh;
+  background-color: #fafbf7;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.msg-container img {
+  height: 50%;
+  width: 50%;
+}
+
+.winMsg p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.msg-container button {
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 400;
+  background-color: #d9a289;
+  border: none;
+}
+
+.hide {
+  display: none;
+}
+
+.gameContainer {
+  height: 400px;
+  width: 400px;
+  margin: 50px auto auto auto;
+  display: grid;
+  grid-template-rows: repeat(3, 133px);
+  grid-template-columns: repeat(3, 133px);
+}
+
+.gameBox {
+  height: 133px;
+  width: 133px;
+}
+
+.div1 {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.div2 {
+  border-bottom: 2px solid black;
+}
+
+.div3 {
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.div4 {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.div5 {
+  border-bottom: 2px solid black;
+}
+
+.div6 {
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.div7 {
+  border-right: 2px solid black;
+}
+
+.div9 {
+  border-left: 2px solid black;
+}
+
+.gameContainer button {
+  height: 133px;
+  width: 133px;
+  background: transparent;
+  border: none;
+}
+
+.gameOptions {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newbtn2 {
+  height: 30px;
+  width: 100px;
+  font-weight: 400;
+  border-radius: 5px;
+  margin: auto;
+  background-color: #3397da57;
+  border: none;
+}
+
+.resetbtn {
+  height: 30px;
+  width: 100px;
+  font-weight: 400;
+  border-radius: 5px;
+  margin: auto;
+  background-color: #3397da57;
+  border: none;
+}
